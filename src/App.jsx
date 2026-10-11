@@ -3,6 +3,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Catalog from "./pages/Catalog";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <h1>Hello from React!</h1>
       <Navbar></Navbar>
       <Catalog></Catalog>
+      <Footer></Footer>
     </div>
   );
 }
