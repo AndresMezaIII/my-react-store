@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <h1>Hello from React!</h1>
       <Navbar></Navbar>
       <Catalog></Catalog>
       <Footer></Footer>
