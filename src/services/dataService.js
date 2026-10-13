@@ -3,7 +3,7 @@ const CATALOG = [
   {
     title: "Oranges",
     category: "Fruits",
-    price: 6,
+    price: "$6",
     image: "oranges.png",
     _id: "1",
   },
@@ -11,7 +11,7 @@ const CATALOG = [
   {
     title: "Hoodie",
     category: "Clothing",
-    price: 40,
+    price: "$40",
     image: "hoodie.png",
     _id: "2",
   },
@@ -19,9 +19,17 @@ const CATALOG = [
   {
     title: "Coffee",
     category: "Hot Beverages",
-    price: 12,
+    price: "$12",
     image: "coffe.png",
     _id: "3",
+  },
+
+  {
+    title: "Chocolate",
+    category: "Food",
+    price: "$8",
+    image: "choco.png",
+    _id: "4",
   },
 ];
 

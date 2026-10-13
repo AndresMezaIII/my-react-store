@@ -1,0 +1,19 @@
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: left;
+  margin: 25px;
+}
+
+div {
+  font-size: 2rem;
+}
+
+button {
+  gap: 3px;
+}
