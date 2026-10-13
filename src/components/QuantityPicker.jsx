@@ -21,11 +21,17 @@ function QuantityPicker() {
     //using className because class is a reserved word in JavaScript and you cannot duplicate this word
     //anything in html that is enclosed in {} is JavaScript
     <div className="quantity-picker">
-      <button className="btn-minus" onClick={handleDecrease}>
+      <button
+        className="btn-minus btn-outline theme-accent"
+        onClick={handleDecrease}
+      >
         -
       </button>
       <label className="label-qty">{quantity}</label>
-      <button className="btn-plus" onClick={handleIncrease}>
+      <button
+        className="btn-plus btn-outline theme-accent"
+        onClick={handleIncrease}
+      >
         +
       </button>
     </div>
