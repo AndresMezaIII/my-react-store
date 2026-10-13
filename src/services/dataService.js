@@ -1,25 +1,26 @@
+//images are in the public folder which is accessible from anywhere, no need to specify the path
 const CATALOG = [
   {
     title: "Oranges",
     category: "Fruits",
-    price: 15,
-    image: "placeholder",
+    price: 6,
+    image: "oranges.png",
     _id: "1",
   },
 
   {
-    title: "Apples",
-    category: "Fruits",
-    price: 10,
-    image: "placeholder",
+    title: "Hoodie",
+    category: "Clothing",
+    price: 40,
+    image: "hoodie.png",
     _id: "2",
   },
 
   {
-    title: "Bananas",
-    category: "Fruits",
+    title: "Coffee",
+    category: "Hot Beverages",
     price: 12,
-    image: "placeholder",
+    image: "coffe.png",
     _id: "3",
   },
 ];
