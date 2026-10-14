@@ -5,15 +5,20 @@ import QuantityPicker from "./QuantityPicker";
 
 function Product(props) {
   return (
-    <div className="product-container">
-      <img src={"/images/" + props.data.image} alt="Lorem Picsum"></img>
-      <h5> {props.data.title} </h5>
-      <div className="prices">
-        <label>Price: {props.data.price}</label>
-        <br />
-        <label>Total</label>
+    <div className="product-placement">
+      <div className="image-container">
+        <img src={"/images/" + props.data.image} alt="Lorem Picsum"></img>
       </div>
-      <QuantityPicker></QuantityPicker>
+      <p className="description"> {props.data.description} </p>
+      <div className="info-container">
+        <h5 className="title"> {props.data.title} </h5>
+        <div className="prices">
+          <label>Price: {props.data.price}</label>
+          <br />
+          <label>Total</label>
+        </div>
+        <QuantityPicker></QuantityPicker>
+      </div>
     </div>
   );
 }

@@ -2,11 +2,12 @@
   font-size: 62.5%;
   margin: 0;
   padding: 0;
+  background-color: navy;
 }
 
 h1 {
   font-size: 3rem;
-  text-align: left;
+  text-align: center;
   margin: 25px;
 }
 
@@ -16,4 +17,89 @@ div {
 
 button {
   gap: 3px;
+  width: 32px;
+  height: 32px;
+  margin: 8px;
+}
+
+.catalog-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+}
+
+.product-placement {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  height: 100%;
+  color: gray;
+  gap: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.product-placement:nth-child(odd) {
+  background: bisque;
+}
+
+.product-placement:nth-child(even) {
+  background-color: antiquewhite;
+  color: navy;
+}
+
+.product-placement p:nth-child(odd) {
+  background-color: bisque;
+}
+
+.product-placement p:nth-child(even) {
+  background-color: antiquewhite;
+}
+
+.image-container {
+  border-radius: 20px;
+  margin: 10px;
+  height: 30%;
+  width: 30%;
+  background-color: black;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  width: 40%;
+  text-align: left;
+  padding: 10px;
+  margin: 25px;
+  color: darkolivegreen;
+  border-radius: 8px;
+  background-color: beige;
+}
+
+.title:nth-child(odd) {
+  color: red;
+}
+
+.title:nth-child(even) {
+  color: black;
+}
+
+.prices {
+  color: green;
+  border-radius: 8px;
+  font-size: 1.25rem;
 }
