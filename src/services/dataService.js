@@ -22,7 +22,7 @@ const CATALOG = [
 
   {
     title: "Coffee",
-    category: "Hot Beverages",
+    category: "Beverages",
     price: "$12",
     image: "coffe.png",
     _id: "3",
@@ -32,7 +32,7 @@ const CATALOG = [
 
   {
     title: "Chocolate",
-    category: "Food",
+    category: "Candy",
     price: "$8",
     image: "choco.png",
     _id: "4",
