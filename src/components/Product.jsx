@@ -15,7 +15,7 @@ function Product(props) {
         <div className="prices">
           <label>Price: {props.data.price}</label>
           <br />
-          <label>Total</label>
+          <label>Total:</label>
         </div>
         <QuantityPicker></QuantityPicker>
       </div>

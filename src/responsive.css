@@ -1,3 +1,7 @@
+:root {
+  --background-color-one: darkolivegreen;
+}
+
 * {
   font-size: 62.5%;
   margin: 0;
@@ -20,6 +24,9 @@ button {
   width: 32px;
   height: 32px;
   margin: 8px;
+}
+
+label {
 }
 
 .catalog-container {
@@ -45,13 +52,16 @@ button {
   border-radius: 10px;
 }
 
+.product-placement p {
+  border-radius: 10px;
+}
+
 .product-placement:nth-child(odd) {
   background: bisque;
 }
 
 .product-placement:nth-child(even) {
   background-color: antiquewhite;
-  color: navy;
 }
 
 .product-placement p:nth-child(odd) {
@@ -63,7 +73,7 @@ button {
 }
 
 .image-container {
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 10px;
   height: 30%;
   width: 30%;
@@ -73,11 +83,13 @@ button {
 .image-container img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 
 .info-container {
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .description {
@@ -86,20 +98,18 @@ button {
   padding: 10px;
   margin: 25px;
   color: darkolivegreen;
-  border-radius: 8px;
   background-color: beige;
 }
 
-.title:nth-child(odd) {
+.title {
   color: red;
 }
 
-.title:nth-child(even) {
-  color: black;
-}
-
 .prices {
-  color: green;
+  color: white;
   border-radius: 8px;
   font-size: 1.25rem;
+}
+
+.quantity-picker {
 }
